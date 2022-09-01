@@ -12,12 +12,6 @@ sudo apt install virtualenv python3.8-venv
 python3.8 -m venv venv
 source venv/bin/activate
 ```
-
-- Install pytorch for CPU
-```bash
-pip install torch --extra-index-url https://download.pytorch.org/whl/cpu
-```
-
 - Install requirements.txt
 ```bash
 pip install -r requirements.txt
