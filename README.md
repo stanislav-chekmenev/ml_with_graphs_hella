@@ -2,7 +2,7 @@
 
 - Clone the repo
 ```bash
-git clone https://github.com/stanislav-chekmenev/ml_with_graphs_hella
+proxy git clone https://github.com/stanislav-chekmenev/ml_with_graphs_hella
 ```
 - Install virtualenv inside the repo
 
