@@ -8,7 +8,7 @@ proxy git clone https://github.com/stanislav-chekmenev/ml_with_graphs_hella
 
 ```bash
 cd ml_with_graphs_hella
-sudo apt install virtualenv
+sudo apt install virtualenv python3.8-venv
 python3.8 -m venv venv
 source venv/bin/activate
 ```
