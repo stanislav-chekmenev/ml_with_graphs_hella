@@ -1,1 +1,1 @@
-# ml_with_graphs_hella
+# Machine learning on graphs for Hella
