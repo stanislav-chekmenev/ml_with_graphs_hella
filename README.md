@@ -1,3 +1,5 @@
+![alt-text](https://github.com/stanislav-chekmenev/ml_with_graphs_hella/blob/main/assets/graph.jpg)
+
 # Machine learning with graphs for Hella
 
 - Clone the repo
