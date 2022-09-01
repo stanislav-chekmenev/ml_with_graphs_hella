@@ -2,6 +2,7 @@
 
 # Machine learning with graphs for Hella
 
+- Connect to your desktop linux machine via ssh.
 - Clone the repo
 ```bash
 proxy git clone https://github.com/stanislav-chekmenev/ml_with_graphs_hella
@@ -18,3 +19,8 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+- Start jupyter-lab
+```bash
+jupyter-lab &
+```
+- Configure an ssh tunneling to your windows machine. JupyterLab is running on 127.0.0.1:8888 and it also prints a token ID which you'll be asked to provide on the first login.
