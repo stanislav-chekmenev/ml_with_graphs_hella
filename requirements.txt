@@ -1,2 +1,4 @@
 jupyterlab
+matplotlib
 torch
+wheel

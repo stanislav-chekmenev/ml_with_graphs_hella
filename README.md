@@ -19,6 +19,19 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+- Install Pytorch Geometric
+1. Find out your torch version by running it in python console:
+```python
+import torch
+print(torch.__version__)
+```
+2. Install PyG
+```bash
+export TORCH=your_torch_version
+proxy pip install -q torch-scatter -f https://data.pyg.org/whl/torch-${TORCH}.html
+proxy pip install -q torch-sparse -f https://data.pyg.org/whl/torch-${TORCH}.html
+proxy pip install -q git+https://github.com/pyg-team/pytorch_geometric.git
+```
 - Start jupyter-lab
 ```bash
 jupyter-lab &
